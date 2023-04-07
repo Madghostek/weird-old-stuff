@@ -1,0 +1,54 @@
+<html>
+	<head>
+		<title>Socket.io chat</title>
+		<meta charset="UTF-8"></meta>
+		<style>
+			body {
+				background-color: #EEFFEE
+			}
+			input {
+				background:#AAAAFF;
+				height:25;
+				position:absolute;
+				top:600;
+				left:58;
+				border:solid;
+				border-radius: 5px;
+			}
+			button {
+				background:#5555FF;
+				position:fixed;
+				top:600;
+				border:solid;
+				border-radius: 5px;
+
+			}
+			font {
+				font-family:"Segoe UI",Arial,sans-serif;
+			}
+			#superuser {
+				font-family:cursive;
+				color:#1111FF;
+			}
+			div {
+				border: 2px solid #ccc;
+				height: 550px;
+				border-radius: 25px;
+				overflow:hidden;
+				word-wrap:break-word;
+			}
+
+		</style>
+	</head>
+	<body>
+		<div id="Chat"></div>
+			<form action="">
+			<input type="text" id="input"></input>
+			<button type="button" id="btn-submit" autofocus>Send</button>
+
+			</form>
+		<script src="/socket.io/socket.io.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src=js/Main.js></script>
+	</body>
+</html>

@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1570736842 source:c:\users\tomek\desktop\programy\projects\drop\main.cpp
+	<windows.h>
+	<cstdio>
+
+1570742098 source:c:\users\tomek\desktop\programy\projects\drop\resource.rc
+	<windows.h>
+	<commctrl.h>
+	<richedit.h>
+	"resource.h"
+
+1570742098 c:\users\tomek\desktop\programy\projects\drop\resource.h
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<title>Socket.io Chat v3</title>
+</head>
+
+<body>
+	<main>
+
+		<div id="text" class="chat">
+			<div class="chat__wrapper">
+			</div>
+		</div>
+
+		<div class="controls">
+			<input type="text" id="message" class="control controls__message" placeholder="Enter message">
+			<button id="btn" class="control controls__send">Send message</button>
+			<button id="change" class="control controls__nick">Change nick</button>
+		</div>
+
+	</main>
+
+	<div class="prompt-modal" style="display:none;">
+		<div class="modal__wrapper">
+			<h2 id="title">Change nick</h2>
+			<input type="text" id="promptfield">
+		</div>
+	</div>
+
+	<script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Socket.io Chat v2</title>
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="overlay"></div>
+	<div class="popup">
+		<div id="nickname">
+			<h4 style="top:10px">Change Nickname:</h4>
+			<input id="nickfield" style="margin:10px;width:300px">
+		</div>
+	</div>
+	<div id="text"></div>
+	<div id="area">
+		<input id="message">
+		<button id="btn">Send</button>
+		<button id="change" style="margin-left: 80%px">Change Nickname</button>
+	</div>
+	<script src="js/main.js"></script>
+</body>
+</html>
